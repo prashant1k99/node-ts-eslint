@@ -38,6 +38,16 @@ module.exports = {
 		'no-var': 'error',
 		'prefer-const': 'error',
 		'no-empty-function': 'error',
-		'prettier/prettier': 'error'
+		'prettier/prettier': [
+			'error',
+			{
+				semi: false,
+				singleQuote: true,
+				tabWidth: 2,
+				useTabs: true,
+				trailingComma: 'none',
+				endOfLine: 'auto'
+			}
+		]
 	}
 }
